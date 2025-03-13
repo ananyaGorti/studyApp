@@ -14,3 +14,52 @@ With a user-friendly interface and Firebase integration, FlashMaster transforms 
 To run FlashMaster on your local development environment, follow these steps:
 
 Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-repository/flashmaster.git
+cd flashmaster
+Install dependencies:
+
+nginx
+Copy
+Edit
+npm install
+Set up Firebase:
+
+Go to Firebase Console
+Create a new project
+Enable Firebase Authentication (Email/Password)
+Set up Cloud Firestore and create a database
+Copy your Firebase credentials into firebaseConfig.ts
+Run the application:
+
+sql
+Copy
+Edit
+npm start
+🔑 Features Overview
+👤 User Authentication
+Sign up or log in using an email and password.
+Secure authentication powered by Firebase.
+📚 Deck & Flashcard Management
+Create new decks and name them based on a subject or topic.
+Add, edit, or delete flashcards within a deck.
+Organize study materials by category.
+📖 Interactive Learning
+Review flashcards in an intuitive UI.
+Track progress by organizing decks based on study priorities.
+Gamify the learning process by setting up quizzes using flashcards.
+📤 Share & Collaborate
+Share your flashcard decks with friends or classmates.
+Build collaborative study materials by sharing subject-based decks.
+⚙️ Progress Tracking (Future Feature)
+Keep track of reviewed flashcards
+Quiz-based tracking system
+Performance analytics to reinforce weak areas.
+🛠 Technology Stack
+React Native (Front-end)
+Firebase (Authentication & Database)
+TypeScript (Strongly typed components)
+MVVM Architecture (For scalable and maintainable code)
